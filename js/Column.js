@@ -5,6 +5,7 @@
 // Column Class \\
 
 function Column(id, name) {
+	var self = this;
 	this.id = id;
 	this.name = name || 'No name given';
 	this.element = generateTemplate('column-template', { name: this.name, id: this.id });
@@ -44,7 +45,6 @@ Column.prototype = {
 	addCard: function(card) {
 		this.element.querySelector('ul').appendChild(card.element);
 	},
-
 
 
 	removeColumn: function() {
