@@ -1,26 +1,17 @@
 {
-  "name": "learning-git-2",
+  "name": "kanban-board",
   "version": "1.0.0",
-  "description": "My project link:",
+  "description": "My project link: https://github.com/bio8oid/16.7__Kanban_Board_API",
   "main": "index.js",
   "dependencies": {
-    "browser-sync": "^2.26.5",
-    "chart.js": "^2.8.0",
-    "imagemin-cli": "^4.0.1",
-    "mustache": "^3.0.1",
-    "postcss-cli": "^6.1.1",
-    "postcss-cli-simple": "^3.0.0",
-    "rimraf": "^2.6.3",
-    "superagent": "^5.0.5"
+    "browser-sync": "^2.26.7",
+    "rimraf": "^2.6.3"
   },
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
-    "globstar": "^1.0.0",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.12.0",
-    "npm-check-updates": "^3.1.1",
     "npm-run-all": "^4.1.5",
-    "nu-html-checker": "^0.1.0",
     "onchange": "^5.2.0"
   },
   "scripts": {
@@ -44,16 +35,4 @@
     "watch:browsersync": "browser-sync start --server --files css/*.css *.html js/*.js",
     "sassprefixer:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "sassprefixer:autoprefixer": "autoprefixer-cli css/style.css css/style.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/8bollod8/git-study.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/8bollod8/learning-git-2/issues"
-  },
-  "homepage": "https://github.com/8bollod8/learning-git-2#readme"
-}
+  }
